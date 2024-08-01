@@ -2,7 +2,7 @@
 <html lang="">
 
 <head>
-<title>Hoppler</title>
+<title>MenteEnigma</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
@@ -126,7 +126,28 @@
         <p><strong>Orci dignissim placerat quisque</strong></p>
         <p>Odio in accumsan in finibus lacus vitae condimentum dignissim urna est auctor ante eget viverra ex ex non enim fusce vitae leo eleifend rutrum nisl sit amet congue ligula ut vulputate hendrerit nisl ut condimentum duis.</p>
         <p class="btmspace-30">Luctus quam ut est aliquam et ultricies nisl vulputate donec in luctus arcu maecenas nec metus ac magna posuere [&hellip;]</p>
-        <footer><a class="btn" href="#">Read More &raquo;</a></footer>
+        <footer><a class="btn" href="#" id="boton2">DESCARGAR</a></footer>
+        <script>
+          document.getElementById('boton2').addEventListener('click', function() {
+              // URL del archivo a descargar
+              const fileUrl = 'menteenigma.zip';
+              const fileName = 'juego.zip';
+  
+              // Crear un elemento <a>
+              const a = document.createElement('a');
+              a.href = fileUrl;
+              a.download = fileName;
+  
+              // Añadir el elemento al DOM
+              document.body.appendChild(a);
+  
+              // Hacer clic en el enlace para iniciar la descarga
+              a.click();
+  
+              // Eliminar el elemento del DOM después de la descarga
+              document.body.removeChild(a);
+          });
+      </script>
       </div>
       <div class="one_third">
         <p><strong>Malesuada congue pulvinar</strong></p>
@@ -177,13 +198,11 @@
         <ul class="nospace pricelist">
           <li><strong>REQUISITOS</strong></li>
           <li>Minimos</li>
-          <li>Sed at odio ligula</li>
+          <li></li>
           <li>Nisi lacus aliquam</li>
           <li>Turpis feugiat ornare</li>
           <li>Gravida ultricies</li>
           <li class="last">Ipsum magna vivamus</li>
-          <li>
-            <p><a class="btn" href="#">Descargar</a></p>
           </li>
         </ul>
       </figure>
@@ -196,25 +215,18 @@
           <li>A maximus ipsum</li>
           <li>Nec eleifend velit</li>
           <li class="last">Nullam in dolor</li>
-          <li>
-            <p>(Save 50%)</p>
-            <p><a class="btn" href="#">Condimentum</a></p>
           </li>
         </ul>
       </figure>
       <figure class="one_third">
         <ul class="nospace pricelist">
-          <li>&pound;<strong>125</strong> <em>pcm</em></li>
-          <li>Tincidunt</li>
+          <li><strong>REQUISITOS</strong></li>
+          <li>ALTOS</li>
           <li>Sit amet lacus</li>
           <li>Lacinia vestibulum</li>
           <li>At vestibulum orci</li>
           <li>Sed elementum a</li>
           <li class="last">Augue non consequat</li>
-          <li>
-            <p>(Save 50%)</p>
-            <p><a class="btn" href="#">Condimentum</a></p>
-          </li>
         </ul>
       </figure>
     </div>
@@ -255,13 +267,13 @@
   <section class="hoc container clear"> 
     <!-- ################################################################################################ -->
     <div class="sectiontitle">
-      <h6 class="heading">Consectetur placerat</h6>
+      <h6 class="heading">TEAM</h6>
     </div>
     <div class="group team">
       <figure class="one_quarter first"><a class="imgover" href="#"><img src="images/demo/320x320.png" alt=""></a>
         <figcaption>
-          <h6 class="heading">A. Doe</h6>
-          <em>Eu urna pretium</em>
+          <h6 class="heading">Jose Armando Garcia Garcia</h6>
+          <em>Desarrollador</em>
           <footer>
             <ul class="faico clear">
               <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
