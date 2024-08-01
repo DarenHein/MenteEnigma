@@ -1,12 +1,5 @@
 @charset "utf-8";
-/*
-Template Name: Hoppler
-Author: <a href="https://www.os-templates.com/">OS Templates</a>
-Author URI: https://www.os-templates.com/
-Licence: Free to use under our free template licence terms
-Licence URI: https://www.os-templates.com/template-terms
-File: Layout CSS
-*/
+
 
 @import url("font-awesome.min.css");
 @import url("framework.css");
@@ -330,7 +323,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#56AED4;}
 #footer hr, #footer .borderedbox, #footer .linklist li{border-color:rgba(255,255,255,.1);}
 
 #footer nav a{color:inherit;}
-#footer nav li:first-child a, #footer nav a:hover{color:#FE0000;}
+#footer nav li:first-child a, #footer nav a:hover{color:#00fefe;}
 
 #footer .faico a{color:inherit; background-color:#2B2F32;}
 #footer .faico a:hover{color:#FFFFFF;}
